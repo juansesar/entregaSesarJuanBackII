@@ -1,0 +1,7 @@
+services:
+    mongo:
+        image: "mongo"
+        ports: 
+            - "mongodb+srv://juanmsesar:Sofi%402012@sesar.e7b0x92.mongodb.net/?retryWrites=true&w=majority&appName=sesar:Users"
+        volumes: 
+            - "./mongoData/db:/data/db"
